@@ -16,6 +16,6 @@ greet_user("Badri Paudel")
 def add_numbers(a, b):
     result = a + b
     return result, a,b # python can return multiple values
-    
+
 sum, n1, n2 = add_numbers(23, 7) 
-print("sum of two numbers " + str(n1) + " and " + str(n2) + " is " + str(sum))   
+print("sum of two numbers " + str(n1) + " and " + str(n2) + " is " + str(sum))     
