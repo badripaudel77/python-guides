@@ -43,6 +43,9 @@ college = "   NCIT     "
 print("College = " + college.strip().capitalize())
 
 # various other methods are : isdigit(), find(), startswith(sub), endswith(sub) etc. 
+long_text = "Hello Everyone this is long text"
+splitted_text = long_text.split(' ')
+print('splitted text is : ' + str(splitted_text))
 
 lang = 'groovy'
 print(id(lang)) # id gives the address of the object
@@ -50,5 +53,7 @@ lang = lang + '-'
 print(id(lang)) # id gives the address of the object but completely different address is created as strings are immutable
 
 lang[0] = 'G' # gives error as string is immutable
+
+
 
 
